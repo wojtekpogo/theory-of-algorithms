@@ -55,12 +55,6 @@ If you're running the latest Python you should already have pip installed. If yo
 
 #### Packages
 You will need the packages listed below to be able to run this program. To install those, open your CMD and run the following command for each of them: `pip install [name of dependency]`
-* numpy
-* scipy
-* matplotlib
-* seaborn
-* pandas
-* qskit
 
 
 ```diff
