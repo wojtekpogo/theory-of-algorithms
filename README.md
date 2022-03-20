@@ -10,9 +10,8 @@ ___
 
 ## Table of Contents  
 1. [Description](#description)  
-2. [Technologies](#technologies)
-3. [How to Run](#howto)  
-4. [References](#references)
+2. [Technologies](#technologies) 
+3. [References](#references)
 ---
    
 
@@ -23,6 +22,10 @@ ___
 
 
 This repository contains the work from Theory of Algorithms Module. It consists of:
+
+* *post-correspondence* - Contains a definition and explanation of **Post Correspondence Problem** and **Bounded Post Correspondence Problem** as well as Python function which solves the **Bounded PCP**. The function takes two lists of strings and returns ***True*** if they correspond, ***False*** otherwise. This notebook also contains an explanation of what an undecidable problem is in computability theory.
+
+* *countdown* - Contains an overview and explanation of the **Countdown Numbers Game** and Python function written in a [functional programming style](https://docs.python.org/3/howto/functional.html) which solves a **Countdown Numbers Game**.
 
 
 
