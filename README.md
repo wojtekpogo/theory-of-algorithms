@@ -1,36 +1,25 @@
 # Theory of Algorithms
-
-**Name:** Wojciech Pogorzelski 
-
-**Student ID:** G00375250
-
-**Module:** Theory of Algorithms
-
 ___
 
-## Table of Contents  
-1. [Description](#description)  
-2. [Technologies](#technologies) 
-3. [References](#references)
----
-   
+## Why this repo exists?
 
-## Description
-<a name="description"/>
+This repository is a project demonstrating that I have achieved the learning outcomes of this module along with some sample work and various examples.
 
-[![Made withJupyter](https://img.shields.io/badge/Made%20with-Jupyter-orange?style=for-the-badge&logo=Jupyter)](https://jupyter.org/try)
+## What you will find in this repository?
 
 
 This repository contains the work from Theory of Algorithms Module. It consists of:
 
 * *post-correspondence* - Contains a definition and explanation of **Post Correspondence Problem** and **Bounded Post Correspondence Problem** as well as Python function which solves the **Bounded PCP**. The function takes two lists of strings and returns ***True*** if they correspond, ***False*** otherwise. This notebook also contains an explanation of what an undecidable problem is in computability theory.
 
-* *countdown* - Contains an overview and explanation of the **Countdown Numbers Game** and Python function written in a [functional programming style](https://docs.python.org/3/howto/functional.html) which solves a **Countdown Numbers Game**.
+* *countdown* - Contains an overview, explanation and discusses the complexity of the **Countdown Numbers Game**. It also contains Python function written in a [functional programming style](https://docs.python.org/3/howto/functional.html) which solves a **Countdown Numbers Game**.
 
+* *Labs* - Folder contains the notebooks with all the work throughout the semester
 
-
+[![Made withJupyter](https://img.shields.io/badge/Made%20with-Jupyter-orange?style=for-the-badge&logo=Jupyter)](https://jupyter.org/try)
+---
+   
 ## Technologies
-<a name="technologies"/>
 
 *To find out more about the technologies used in this repository simply click on an icon.*
 
@@ -46,37 +35,26 @@ This repository contains the work from Theory of Algorithms Module. It consists 
 4. Type `git clone https://github.com/wojtekpogo/theory-of-algorithms.git`.
 5. Press Enter. Your local clone will be created.
 
-## Dependencies
-#### Python
-First of all you need Python, if you already have it, please skip this part and continue on.
-If you're running Windows: the most stable Windows downloads are available from the [Python for Windows](https://www.python.org/downloads/windows/) page. Please download the latest release and continue on.
-If you are using a Mac, see the [Python for Mac OS X](https://www.python.org/downloads/mac-osx/) page.
-For other systems, or if you want to install from source, see the [general download page](https://www.python.org/downloads/).
+## How to Run
 
-#### Pip
-If you're running the latest Python you should already have pip installed. If you do not, please see steps above on how to download Python - you will need it to run this solution.
-
-#### Packages
-You will need the packages listed below to be able to run this program. To install those, open your CMD and run the following command for each of them: `pip install [name of dependency]`
-
-
-```diff
-! Disclaimer
-```
-
-Depending on your Python version you may use `pip3` instead of `pip`
-
-
-
-
+1. Ensure you have **Anaconda** installed - you can run `conda info` to verify, if not then click [here](https://www.anaconda.com/products/distribution)
+2. Open Git Bash
+3. Navigate to the directory with previosuly cloned repository
+4. Run `jupyter-lab`
 
 
 ## Quick Steps
-<a name="quicksteps"/>
+
+You can also view the notebook in dynamic or static form, just by clicking one of the following badge:
+
+
+| **Post Correspondence Problem** | **Countdown**|
+| ------------- |:-------------:|
+| [![nbviewer](https://raw.githubusercontent.com/jupyter/design/master/logos/Badges/nbviewer_badge.svg)](https://nbviewer.org/github/wojtekpogo/theory-of-algorithms/blob/main/post_correspondence_problem.ipynb) | [![nbviewer](https://raw.githubusercontent.com/jupyter/design/master/logos/Badges/nbviewer_badge.svg)](https://nbviewer.org/github/wojtekpogo/theory-of-algorithms/blob/main/countdown.ipynb)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/wojtekpogo/theory-of-algorithms/HEADlabpath=https%3A%2F%2Fgithub.com%2Fwojtekpogo%2Ftheory-of-algorithms%2Fblob%2Fmain%2Fpost_correspondence_problem.ipynb) | [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/wojtekpogo/theory-of-algorithms/HEAD?labpath=https%3A%2F%2Fgithub.com%2Fwojtekpogo%2Ftheory-of-algorithms%2Fblob%2Fmain%2Fcountdown.ipynb)
 
 
 ## References
-<a name="references"/>
 
 
 ---
