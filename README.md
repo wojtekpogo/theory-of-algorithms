@@ -75,7 +75,11 @@ You can also view the notebook in dynamic or static form, just by clicking one o
 
 <sup>1</sup>[Functional Programming](https://docs.python.org/3/howto/functional.html)
 
-<sup>2</sup>[Badges](https://github.com/Naereen/badges)
+<sup>2</sup>[The Countdown Problem](http://www.cs.nott.ac.uk/~pszgmh/countdown.pdf)
+
+<sup>3</sup>[Badges](https://github.com/Naereen/badges)
+
+*Note, you'll find more references related to particular topic in each of the notebooks*
 
 ---
 
